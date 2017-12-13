@@ -1,0 +1,22 @@
+The databricks link is:
+
+	https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/957490241968034/3615941726355108/8369728141520448/latest.html
+
+Used the stanford corenlp api to get the sentiment of the tweets.
+
+Our code uses the following dependencies
+
+	stanford-corenlp-3.8.0
+	stanford-corenlp-3.8.0-models
+	twitter4j-stream-3.0.3
+	spark_streaming
+	twitter4j-core-3.0.3
+	spark-streaming-twitter_2.11-2.2.0
+
+You can get the stanford-corenlp-3.8.0 and stanford-corenlp-3.8.0-models by clicking the download button in the following link
+	https://stanfordnlp.github.io/CoreNLP/index.html
+The rest of the dependencies can be found in maven central
+
+The groupid for spark-streaming-twitter_2.11-2.2.0 is org.apache.bahir and not org.apache.spark
+
+The output for several hours worth of tweets can be found in the output file in this.
